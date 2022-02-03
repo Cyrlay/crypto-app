@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/panda.png"/>
+    <script src="https://kit.fontawesome.com/93f0db1840.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="top">
+            <div class="list-of-all" style="border: 1px solid white;"><h1>List of Coins</h1></div>
+            <div class="details-of-coin"><a href="./coin.html"><h1>Details</h1></a></div>
+            <div class="calculator"><a href="./calculator.html"><h1>Calculator</h1></a></div>
+        </div>
+        <main>
+            <div class="showTable">
+                <div class="headings">
+                    <p class="symbol">Symbol <img class="sort-icon" src="img/inlayDropTriangle.svg" alt="sortIcon"></p>
+                    <p>Actual Price <img class="sort-icon" src="img/inlayDropTriangle.svg" alt="sortIcon"></p>
+                    <p>24h Change % <img class="sort-icon" src="img/inlayDropTriangle.svg" alt="sortIcon"></p>
+                    <p>24h Change USD <img class="sort-icon" src="img/inlayDropTriangle.svg" alt="sortIcon"></p>
+                </div>
+                <div class="bottom">
+
+                    <!-- DYNAMIC DATA INSERT -->
+
+                    <!--<div class="crypto-info">
+                            <p class="crypto-name"></p>
+                            <p class="actual-price"></p>
+                            <p class="price-change-percent"></p>
+                            <p class="price-change-usd"></p>
+                        </div>-->
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="credits">Credits © Cyrlay</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/AllCoins.js"></script>
+</body>
+</html>

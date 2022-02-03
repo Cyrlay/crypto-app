@@ -1,0 +1,1 @@
+Crypto App allows user to check current price and other details of cryptocurrency based on Binance API.

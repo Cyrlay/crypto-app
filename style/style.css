@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: lightcoral;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(320deg, #ef2d6b 0%, #86f366 100%) fixed;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    margin: 20px auto;
+    height: 850px;
+    max-width: 1600px;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, .8);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    height: 700px;
+    overflow: auto;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.crypto-name {
+    font-size: 30px;
+}
+
+.headings,
+.crypto-info {
+    display: flex;
+    align-items: center;
+}
+
+.headings p,
+.crypto-info p {
+    width: 33.3%;
+    text-align: center;
+}
+
+.headings {
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    margin:25px;
+}
+
+.sort-icon {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.list-of-all {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-of-coin {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+.searchBox {
+    margin: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    /*background-color: yellow;*/
+}
+
+a:visited {
+    background-color: #178f8f;
+}
+
+a:hover {
+    background-color: #83ffad;
+}
+
+a:active {
+    background-color: #6994ff;
+}
+
+.searchInput {
+    width: 200px;
+    height: 50px;
+}
+
+.searchButton {
+    width: 50px;
+    height: 54px;
+    position: relative;
+    left: -5px;
+}
+
+.enter-symbol-text {
+    margin-bottom: 20px;
+}
+.symbol-details,
+.lastPrice{
+    color:lawngreen;
+}
+
+@media screen and (max-width: 1100px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .crypto-name {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 14px;
+    }
+}

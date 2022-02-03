@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/panda.png"/>
+    <script src="https://kit.fontawesome.com/93f0db1840.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="top">
+                <div class="list-of-all"><a href="./index.html"><h1>List of Coins</h1></a></div>
+                <div class="details-of-coin" style="border: 1px solid white;"><h1>Details</h1></div>
+                <div class="calculator"><a href="./calculator.html"><h1>Calculator</h1></a></div>
+            </div>
+        </header>
+        <main>
+            <div class="searchBox">
+                <p class="enter-symbol-text">Enter Symbol</p>
+                <input class="searchInput" placeholder="BTC..." type="text">
+                <button class="searchButton">Search</button>
+            </div>
+
+            <p class="symbol-details"></p>
+            <p class="lastPrice"></p>
+            <p class="askPrice"></p>
+            <p class="askQty"></p>
+            <p class="bidPrice"></p>
+            <p class="bidQty"></p>
+            <p class="closeTime"></p>
+            <p class="count"></p>
+            <p class="firstId"></p>
+            <p class="highPrice"></p>
+            <p class="lastId"></p>
+            <p class="lastQty"></p>
+            <p class="lowPrice"></p>
+            <p class="openPrice"></p>
+            <p class="openTime"></p>
+            <p class="prevClosePrice"></p>
+            <p class="priceChange"></p>
+            <p class="priceChangePercent"></p>
+            <p class="quoteVolume"></p>
+            <p class="volume"></p>
+            <p class="weightedAvgPrice"></p>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="credits">Credits © Cyrlay</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/SpecificCoin.js"></script>
+</body>
+</html>
